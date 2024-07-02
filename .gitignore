@@ -54,8 +54,8 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+!gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/java,gradle
 
@@ -64,12 +64,9 @@ gradle-app.setting
 build/
 .gradle/
 out/
-out
-.gradle
-gradle
-gradlew.bat
-gradlew
-settings.gradle
+!gradlew
+!gradlew.bat
+!gradle/wrapper/
 
 #IntelliJ
 .idea
